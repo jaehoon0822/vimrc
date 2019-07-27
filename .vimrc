@@ -6,8 +6,8 @@ set cindent		      "
 set ts=4		      " tab space
 set shiftwidth=4	      " shift width
 :colorscheme desert 
-syntax on
 
+filetype off
 
 " 마지막으로 수정된 곳에 커서를 위치함
  au BufReadPost *
@@ -67,14 +67,16 @@ Plugin 'gosukiwi/vim-atom-dark'
 Plugin 'yggdroot/indentline'
 "php
 Plugin 'stanangeloff/php.vim'
-"taglist
-Plugin 'taglist.vim'
 "regtag
 Plugin 'tpope/vim-ragtag'
-
+"pug
+Plugin 'digitaltoad/vim-pug'
+"pug complate
+Plugin 'dnitro/vim-pug-complete'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
+filetype on
 
 "airlineSttings
 let g:airline#extensions#tabline#enabled = 1
