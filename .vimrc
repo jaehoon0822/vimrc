@@ -5,6 +5,7 @@ set autoindent		      " auto indent
 set cindent		      " 
 set ts=2		      " tab space
 set shiftwidth=2	      " shift width
+let g:gruvbox_termcolors=16
 :colorscheme jellybeans 
 syntax on
 
