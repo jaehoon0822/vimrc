@@ -86,6 +86,8 @@ Plugin 'tpope/vim-ragtag'
 Plugin 'digitaltoad/vim-pug'
 "pug complate
 Plugin 'dnitro/vim-pug-complete'
+"dockerfile.vim
+Plugin 'ekalinin/dockerfile.vim'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
