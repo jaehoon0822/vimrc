@@ -20,7 +20,6 @@ set clipboard=unnamed
  "
 "colorscheme jellybeans
 syntax on
-
 filetype off
 
 " 마지막으로 수정된 곳에 커서를 위치함
@@ -88,6 +87,8 @@ Plugin 'tpope/vim-ragtag'
 Plugin 'digitaltoad/vim-pug'
 "pug complate
 Plugin 'dnitro/vim-pug-complete'
+"dockerfile.vim
+Plugin 'ekalinin/dockerfile.vim'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -141,7 +142,6 @@ let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
 "let g:ctrlp_user_command = 'find %s -type f'        " MacOSX/Linux
 "let g:ctrlp_user_command = 'dir %s /-n /b /s /a-d'  " Windows
 "let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard'] "gitignore
-
 "javascript
 let g:javascript_plugin_jsdoc = 1
 let g:javascript_plugin_ngdoc = 1
@@ -197,7 +197,6 @@ nmap <C-c>r <Plug>SetTmuxVars
  
  "sicp
  autocmd filetype lisp,scheme,art setlocal equalprg=scmindent.rkt
-
 "javascript-libraries-syntax
 let g:used_javascript_libs = 'react'
 
