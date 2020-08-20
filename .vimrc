@@ -1,10 +1,12 @@
 set nocompatible              " be iMproved, required
+set backspace=indent,eol,start
 filetype off                  " required
 set number		      " number line
 set autoindent		      " auto indent
 set cindent		      " 
 set ts=2		      " tab space
 set shiftwidth=2	      " shift width
+set clipboard=unnamed
  colorscheme gruvbox 
  set bg=dark
  let g:gruvbox_italic=0
@@ -203,6 +205,7 @@ let g:used_javascript_libs = 'react'
 
 let g:user_emmet_install_global = 0
 autocmd FileType html,css EmmetInstall
+let g:user_emmet_leader_key=','
 
 "indentLine
 
